@@ -29,6 +29,9 @@ export default function OAuth() {
           photo: result.user.photoURL,
         }),
       });
+      // xihuanxiaowalalalalalalla
+      // lalalalallabajibajibaobaobaobao
+      // yuyuxiaowa xiaoxiaoyuwa yuyuxiaowa xiaoyuxiaowa
       const data = await res.json();
       dispatch(signInSucess(data));
       navigate("/");
