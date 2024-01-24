@@ -6,6 +6,7 @@ import {
   signInSucess,
   signInFailure,
 } from "../redux/user/userSlice";
+import OAuth from "../components/OAuth";
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});
@@ -59,6 +60,7 @@ export default function SignIn() {
           id="password"
           onChange={handleChange}
         />
+        <OAuth />
         <button
           disabled={loading}
           className="bg-slate-700 text-white p-3 rounded-lg uppercase 
